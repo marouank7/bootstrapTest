@@ -71,6 +71,9 @@ h1{
 /* #clients img{
     margin-top: -50px;
 } */
+#clients{
+    padding-bottom:75px;
+}
 
 .fab{
     font-size: 25px;
@@ -78,3 +81,50 @@ h1{
 }
 
 
+/* media Queries */
+
+@media screen and (max-width : 768px){
+
+    header{
+        height: 60vh;
+    }
+
+    .text-intro{
+        padding-top:200px;
+    }
+
+    .preTxt{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width : 500px){
+    .preTxt{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 39px;
+    }
+
+    .text-intro a {
+        transform: scale(0.8);
+    }
+
+    #homes-icons{
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    #txtLaptop{
+        padding-bottom: 30px;
+    }
+
+    #clients{
+        padding-bottom: 75px;
+    }
+}
